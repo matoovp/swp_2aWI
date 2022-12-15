@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    font-family: bignoodletitling;
+    background-color: gray;
+    
+  }
+  
+  .wrapper{
+  justify-content: center;
+    margin-top: 200px;
+    display: flex;
+    
+  }
+  
+  .form-area{
+    display: flex;
+    flex-direction: row; 
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 20px 10px gray;
+  }
+  
+  div.img-area {
+    height: 400px;
+    width: 100%;
+    background: url("wemadeit.gif");
+    background-position: center;
+    background-size: cover;
+    margin-right: 50px;
+    margin-left: 0px;
+    box-shadow: 0px 15px 10px gray;
+    display: flex; 
+    
+  }
+  
+  .right-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+
+  a{
+    background-color: red;
+    border-radius: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 280px;
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+  }
